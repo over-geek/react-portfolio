@@ -21,6 +21,8 @@ h1 {
 
 p {
   font-family: 'Inter', sans-serif;
+  color: rgb(161 161 170);
+  font-weight: 400;
 }
 
 ul {
@@ -29,5 +31,10 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #d8d7d7;
+  font-family: 'Inter', sans-serif;
+}
+
+.light_green {
+  color: #64ffda;
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 .d_flex {
 	display: flex;
 }
@@ -40,6 +43,37 @@
 }
 
 .layout {
+	width: 100%;
 	margin-left: 250px;
 	overflow-y: auto;
+}
+
+/* Home Section */
+#home {
+	width: 100%;
+	height: 100%;
+}
+
+.main_text {
+	margin: 15% 0 0 5%;
+	width: 45%;
+}
+
+.main_description_text {
+	margin-top: 1rem;
+	line-height: 1.5rem;
+}
+
+.socials_container {
+	width: 300px;
+	margin-top: 2rem;
+}
+
+.socials_container ul {
+	flex-wrap: wrap;
+	gap: 0.7rem;
+}
+
+.socials_container ul li a {
+	gap: 8px;
 }
