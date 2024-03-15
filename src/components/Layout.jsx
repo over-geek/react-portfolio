@@ -1,4 +1,3 @@
-import '../styles/Dynamic_text.scss'
 import Home from './Home';
 
 const Layout = () => {
