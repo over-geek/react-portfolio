@@ -1,0 +1,45 @@
+.d_flex {
+	display: flex;
+}
+
+.d_flex_ai {
+	align-items: center;
+}
+
+.d_flex_jc {
+	justify-content: center;
+}
+
+.main {
+	min-height: 100vh;
+	padding-top: 20px;
+}
+
+.sidebar {
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	top: 20px;
+	border-right: 1px solid rgb(39 39 42);
+	overflow-y: auto;
+	margin-bottom: 20px;
+}
+
+.sidebar_navlinks {
+	margin-top: 5rem;
+}
+
+.sidebar_navlinks li {
+	margin-bottom: 1rem;
+}
+
+.sidebar_navlinks li a {
+	justify-content: space-between;
+}
+
+.layout {
+	margin-left: 250px;
+	overflow-y: auto;
+}
