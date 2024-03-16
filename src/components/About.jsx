@@ -1,10 +1,17 @@
+import { FaReact } from "react-icons/fa";
+import { SiWebpack } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { SiRubyonrails } from "react-icons/si";
+import { DiRuby } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+
 const About = () => {
 	return (
 		<section id='about'>
 			<h2 className="numbered-heading">
 				About Me
 			</h2>
-			<div className='d_flex'>
+			<div className='about_container d_flex'>
 				<div className='about_description_container'>
 					<div className='about_description d_flex_col'>
 						<p>
@@ -22,12 +29,30 @@ const About = () => {
 					</div>
 					<div className='skill_list_container'>
 						<ul className='skill_list'>
-							<li>JavaScript (ES6+)</li>
-							<li>React</li>
-							<li>Ruby</li>
-							<li>Ruby on Rails</li>
-							<li>Python</li>
-							<li>Webpack</li>
+							<li className='d_flex d_flex_ai'>
+								JavaScript (ES6+)
+								<IoLogoJavascript />
+							</li>
+							<li className='d_flex d_flex_ai'>
+								React
+								<FaReact />
+							</li>
+							<li className='d_flex d_flex_ai'>
+								Ruby
+								<DiRuby />
+							</li>
+							<li className='d_flex d_flex_ai'>
+								Ruby on Rails
+								<SiRubyonrails />
+								</li>
+							<li className='d_flex d_flex_ai'>
+								Python
+								<FaPython />
+							</li>
+							<li className='d_flex d_flex_ai'>
+								Webpack
+								<SiWebpack />
+							</li>
 						</ul>
 					</div>
 				</div>
