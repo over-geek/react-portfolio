@@ -15,11 +15,13 @@ body {
   background-position: 0 0;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Inconsolata', sans-serif;
+  color: #fff;
 }
 
-p {
+p,
+li {
   font-family: 'Inter', sans-serif;
   color: rgb(161 161 170);
   font-weight: 400;

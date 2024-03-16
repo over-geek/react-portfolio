@@ -30,7 +30,7 @@ const Home = () => {
 							</a>
 						</li>
 						<li>
-							<a href="#" target='_blank' className='d_flex d_flex_ai'>
+							<a href="https://www.linkedin.com/in/kenneth-agyare-kissi" target='_blank' className='d_flex d_flex_ai'>
 								<FaLinkedin />
 								LinkedIn
 							</a>

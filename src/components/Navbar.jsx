@@ -8,12 +8,12 @@ const Navbar = () => {
 			<div className='sidebar_navlinks d_flex d_flex_jc'>
 				<ul>
 					<li>
-						<a href="#" className='d_flex d_flex_ai'>
+						<a href="#home" className='d_flex d_flex_ai'>
 							Home
 						</a>
 					</li>
 					<li>
-						<a href="#" className='d_flex d_flex_ai'>
+						<a href="#about" className='d_flex d_flex_ai'>
 							About
 							<img src={about} alt='about' />
 						</a>
