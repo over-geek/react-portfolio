@@ -55,12 +55,21 @@
 /* Home Section */
 #home {
 	width: 100%;
-	height: 45%;
+	height: 700px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.spline_container {
+	width: 500px;
+}
+
+.main_container {
+	padding: 0 2rem 0 2rem;
 }
 
 .main_text {
-	margin: 15% 0 0 5%;
-	width: 45%;
+	margin-top: 30%;
 }
 
 .main_description_text {
