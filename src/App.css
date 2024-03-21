@@ -13,6 +13,7 @@ body {
   background-image: url(./assets/bg_pattern.png);
   background-size: 200px 200px;
   background-position: 0 0;
+  counter-reset: section;
 }
 
 h1,
