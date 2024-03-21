@@ -247,6 +247,6 @@
 .footer {
   text-align: center;
   color: rgba(161, 161, 170, 0.5);
-  font-family: 'Inconsolata';
+  font-family: 'Inconsolata', sans-serif;
   margin-bottom: 2rem;
 }
