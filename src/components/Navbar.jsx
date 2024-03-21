@@ -19,13 +19,13 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li>
-						<a href="#" className='d_flex d_flex_ai'>
+						<a href="#projects" className='d_flex d_flex_ai'>
 							Projects
 							<img src={project} alt='project' />
 						</a>
 					</li>
 					<li>
-						<a href="#" className='d_flex d_flex_ai'>
+						<a href="#contact" className='d_flex d_flex_ai'>
 							Contact
 							<img src={contact} alt='contact' />
 						</a>
