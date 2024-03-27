@@ -15,12 +15,16 @@ const About = () => {
 				<div className='about_description_container'>
 					<div className='about_description d_flex_col'>
 						<p>
-							I am a self-driven, career-oriented software developer specializing in full-stack development and open-source contributions.
+							I am a self-driven, career-oriented software developer specializing in Full-Stack development and open-source contributions.
 							Currently, I am pursuing a bachelor&apos;s degree in computer science.
 						</p>
 						<p>
-							I have a strong foundation in building interactive web applications on both the client and server sides. My expertise includes technologies like JavaScript, React, Ruby on Rails, and Python.
-							I am passionate about continuous learning and strive to improve myself in any situation, always seeking new opportunities to expand my skills and knowledge.
+							Importantly, through the <a href="https://www.microverse.org/" target="_blank" className="light_green">Microverse Remote Full-Stack development program</a>, I&apos;ve embarked on an incredible journey, honing my skills as a developer while collaborating with talented individuals from around the globe. 
+							This experience has not only sharpened my technical abilities but also enhanced my collaboration skills, as I&apos;ve worked closely with diverse teams to deliver high-quality software solutions. 
+						</p>
+						<p>
+							I pride myself on my <span className="light_green">adaptability</span>, <span className="light_green">problem-solving prowess</span>, and a <span className="light_green">relentless drive</span> to learn and grow in the ever-evolving field of technology. 
+							With a strong foundation in both technical and soft skills, I am eager to take on new challenges and contribute meaningfully to innovative projects.
 						</p>
 						<p>
 							Beyond learning, I particularly enjoy playing around with 3D rendering and models, adding a creative dimension to my work.
@@ -56,7 +60,6 @@ const About = () => {
 						</ul>
 					</div>
 				</div>
-				<div></div>
 			</div>
 		</section>
 	)
