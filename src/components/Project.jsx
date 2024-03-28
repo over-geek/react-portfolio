@@ -3,6 +3,7 @@ import valorant from '../assets/valorant.png';
 import spacex from '../assets/falcon-9.webp';
 import starship from '../assets/starship.jpg';
 import dota from '../assets/dota.png';
+import expense from '../assets/expense_bgimg.png';
 
 const Project = () => {
 	return (
@@ -37,11 +38,12 @@ const Project = () => {
 					image={dota}
 				/>
 				<ProjectItem
-					githubLink="https://github.com/over-geek/BookStore"
-					externalLink="https://wondrous-gecko-6eea33.netlify.app/"
-					title="BOOKSTORE"
-					description="This is a webapp that displays a list of books and their authors. Users can also add and delete book items"
+					githubLink="https://github.com/over-geek/budget-app"
+					externalLink="https://budget-app-gkra.onrender.com/"
+					title="Expense Tracking App"
+					description="This is a mobile webapp that you can use to manage and track your expenses."
 					stack={["React", "CSS", "Bootstrap", "JavaScript"]}
+					image={expense}
 				/>
 				<ProjectItem
 					githubLink="https://github.com/over-geek/SpaceX-Clone"
