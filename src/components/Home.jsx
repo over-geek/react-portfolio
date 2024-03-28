@@ -27,7 +27,7 @@ const Home = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#" target='_blank' className='d_flex d_flex_ai'>
+								<a href="https://twitter.com/KissiKenneth" target='_blank' className='d_flex d_flex_ai'>
 									<FaSquareXTwitter />
 									X
 								</a>
@@ -39,19 +39,19 @@ const Home = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#" target='_blank' className='d_flex d_flex_ai'>
+								<a href="https://codepen.io/kenagy" target='_blank' className='d_flex d_flex_ai'>
 									<FaCodepen />
 									Codepen
 								</a>
 							</li>
 							<li>
-								<a href="#" target='_blank' className='d_flex d_flex_ai'>
+								<a href="https://www.instagram.com/_ken.agy" target='_blank' className='d_flex d_flex_ai'>
 									<FaInstagram />
 									Instagram
 								</a>
 							</li>
 							<li>
-								<a href="#" target='_blank' className='d_flex d_flex_ai'>
+								<a href="https://steamcommunity.com/profiles/76561199139387833" target='_blank' className='d_flex d_flex_ai'>
 									<FaSteam />
 									Steam
 								</a>
