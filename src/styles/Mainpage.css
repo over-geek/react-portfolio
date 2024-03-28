@@ -20,6 +20,7 @@
 
 .main {
   min-height: 100vh;
+
   /* padding-top: 20px; */
 }
 
@@ -42,6 +43,10 @@
 
 .sidebar_navlinks li a {
   justify-content: space-between;
+}
+
+.socials_container ul li a {
+  gap: 8px;
 }
 
 .sidebar_navlinks a:hover {
@@ -93,10 +98,6 @@
 .socials_container ul {
   flex-wrap: wrap;
   gap: 0.7rem;
-}
-
-.socials_container ul li a {
-  gap: 8px;
 }
 
 /* About Section */
@@ -162,7 +163,7 @@
 }
 
 .skill_list li::before,
-.stack_container li:before {
+.stack_container li::before {
   content: "▹";
   color: #64ffda;
   margin-right: 10px;
