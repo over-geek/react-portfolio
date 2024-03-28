@@ -9,6 +9,7 @@
 
 	.layout {
 		margin-left: 0;
+		padding: 0%;
 	}
 
 	#home {
@@ -31,6 +32,10 @@
 	}
 
 	.about_description_container {
+		width: 100%;
+	}
+
+	.skill_list_container {
 		width: 100%;
 	}
 

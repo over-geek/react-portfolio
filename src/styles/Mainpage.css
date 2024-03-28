@@ -20,36 +20,44 @@
 
 .main {
   min-height: 100vh;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .sidebar {
   color: #fff;
   font-family: 'Inter', sans-serif;
-  width: 250px;
-  height: 100%;
-  position: fixed;
-  top: 20px;
-  border-right: 1px solid rgb(39 39 42);
-  overflow-y: auto;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .sidebar_navlinks {
-  margin-top: 5rem;
+  justify-content: end;
+  padding: 10px 30px 10px 0;
 }
 
-.sidebar_navlinks li {
-  margin-bottom: 1rem;
+.sidebar_navlinks ul {
+  align-items: center;
+  gap: 20px;
 }
 
 .sidebar_navlinks li a {
   justify-content: space-between;
 }
 
+.sidebar_navlinks a:hover {
+  color: #fff;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
 .layout {
   width: 100%;
-  margin-left: 250px;
+  padding: 0% 10%;
 }
 
 /* Home Section */
@@ -153,7 +161,8 @@
   gap: 5px;
 }
 
-.skill_list li::before {
+.skill_list li::before,
+.stack_container li:before {
   content: "▹";
   color: #64ffda;
   margin-right: 10px;

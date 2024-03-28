@@ -4,6 +4,17 @@ import { FaPython } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
+import { FaGitAlt } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaYarn } from "react-icons/fa";
+import { SiVite } from "react-icons/si";
+import { FaNpm } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { GiCapybara } from "react-icons/gi";
+import { SiRubygems } from "react-icons/si";
+import { SiMui } from "react-icons/si";
 
 const About = () => {
 	return (
@@ -38,25 +49,69 @@ const About = () => {
 								<IoLogoJavascript />
 							</li>
 							<li className='d_flex d_flex_ai'>
-								React
-								<FaReact />
-							</li>
-							<li className='d_flex d_flex_ai'>
 								Ruby
 								<DiRuby />
 							</li>
-							<li className='d_flex d_flex_ai'>
-								Ruby on Rails
-								<SiRubyonrails />
-								</li>
 							<li className='d_flex d_flex_ai'>
 								Python
 								<FaPython />
 							</li>
 							<li className='d_flex d_flex_ai'>
-								Webpack
-								<SiWebpack />
+								HTML
+								<FaHtml5 />
 							</li>
+							<li className='d_flex d_flex_ai'>
+								CSS3
+								<FaCss3 />
+							</li>
+							<li className='d_flex d_flex_ai'>
+                Ruby on Rails
+                <SiRubyonrails />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                React
+                <FaReact />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                RSpec
+                <SiRubygems />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Capybara
+                <GiCapybara />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Bootstrap
+                <FaBootstrap />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Material UI
+                <SiMui />
+              </li>
+							<li className='d_flex d_flex_ai'>
+                GitHub
+                <FaGithub />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Git
+                <FaGitAlt />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                NPM
+                <FaNpm />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Yarn
+                <FaYarn />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Vite
+                <SiVite />
+              </li>
+              <li className='d_flex d_flex_ai'>
+                Webpack
+                <SiWebpack />
+              </li>
 						</ul>
 					</div>
 				</div>

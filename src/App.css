@@ -8,11 +8,15 @@
   margin: 0;
 }
 
-body {
+body,
+.scrolled {
   background-color: rgb(24 24 27);
   background-image: url(./assets/bg_pattern.png);
   background-size: 200px 200px;
   background-position: 0 0;
+}
+
+body {
   counter-reset: section;
 }
 

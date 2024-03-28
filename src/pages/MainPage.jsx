@@ -5,7 +5,7 @@ import '../styles/Mobile.css';
 
 function MainPage() {
 	return (
-		<div className='main d_flex'>
+		<div className='main'>
 			<Navbar />
 			<Layout />
 		</div>
