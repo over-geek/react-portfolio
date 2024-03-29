@@ -310,7 +310,7 @@
 
 .main.light-mode p,
 .main.light-mode li {
-  color: rgb(82, 82, 91)
+  color: rgb(82, 82, 91);
 }
 
 .main.light-mode h2 {
@@ -318,7 +318,7 @@
 }
 
 .main.light-mode a {
-  color: rgba(82, 82, 91, 0.8)
+  color: rgba(82, 82, 91, 0.8);
 }
 
 .main.light-mode .numbered-heading::before {
