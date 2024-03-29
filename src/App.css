@@ -9,11 +9,16 @@
 }
 
 body,
-.scrolled {
-  background-color: rgb(24 24 27);
+.scrolled,
+.light-mode {
   background-image: url(./assets/bg_pattern.png);
   background-size: 200px 200px;
   background-position: 0 0;
+}
+
+body,
+.scrolled {
+  background-color: rgb(24 24 27);
 }
 
 body {

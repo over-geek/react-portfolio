@@ -1,10 +1,13 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 import { FaInfoCircle } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { HiLightBulb } from "react-icons/hi";
 
-const Navbar = () => {
+const Navbar = ({ toggleLightMode }) => {
 	const [scrolled, setScrolled] = useState(false);
+
 	const handleScroll = () => {
 		const offset = window.scrollY;
 		if(offset > 200) {
@@ -26,6 +29,9 @@ const Navbar = () => {
 	return (
 		<div className={navbarClasses.join(" ")}>
 			<nav className='sidebar_navlinks d_flex d_flex_ai'>
+				<button className='toggle-bgcolor-btn d_flex d_flex_ai d_flex_jc' onClick={toggleLightMode}>
+					<HiLightBulb className='bulb' />
+				</button>
 				<ul className='d_flex'>
 					<li>
 						<a href="#about" className='d_flex d_flex_ai'>
@@ -49,6 +55,10 @@ const Navbar = () => {
 			</nav>
 		</div>
 	)
+}
+
+Navbar.propTypes = {
+	toggleLightMode: PropTypes.bool.isRequired,
 }
 
 export default Navbar;

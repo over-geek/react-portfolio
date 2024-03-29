@@ -32,8 +32,8 @@
 }
 
 .sidebar_navlinks {
-  justify-content: end;
-  padding: 10px 30px 10px 0;
+  justify-content: space-between;
+  padding: 1% 5% 1% 10%;
 }
 
 .sidebar_navlinks ul {
@@ -63,6 +63,17 @@
 .layout {
   width: 100%;
   padding: 0% 10%;
+}
+
+.toggle-bgcolor-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bulb {
+  font-size: 25px;
 }
 
 /* Home Section */
@@ -289,4 +300,38 @@
   color: rgba(161, 161, 170, 0.5);
   font-family: 'Inconsolata', sans-serif;
   margin-bottom: 2rem;
+}
+
+/* Dark Mode */
+.light-mode,
+.main.light-mode .scrolled {
+  background-color: rgb(240, 240, 240);
+}
+
+.main.light-mode p,
+.main.light-mode li {
+  color: rgb(82, 82, 91);
+}
+
+.main.light-mode h2 {
+  color: #000;
+}
+
+.main.light-mode a {
+  color: rgba(82, 82, 91, 0.8);
+}
+
+.main.light-mode .numbered-heading::before {
+  color: #000080;
+}
+
+.main.light-mode .skill_list li::before,
+.main.light-mode .stack_container li::before {
+  content: "▹";
+  color: #000080;
+  margin-right: 10px;
+}
+
+.main.light-mode .light_green {
+  color: #000080;
 }
