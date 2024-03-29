@@ -109,3 +109,12 @@ $currentPercentage: 0;
     animation: typed #{$durTotal + "s"} linear 1s infinite, beam-blink 1s infinite;
   }
 }
+
+.main.light-mode #dynamic_text {
+  color: #000;
+
+  &::after {
+    border-right: 10px solid #000;
+    border-right: calc(1.1vw + 4px) solid #000;
+  }
+}
