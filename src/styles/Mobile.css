@@ -1,5 +1,13 @@
 @media screen and (max-width: 768px) {
-  .sidebar {
+  .sidebar_navlinks {
+    padding: 2% 5% 2% 10%;
+  }
+
+  .sidebar_navlinks ul {
+    display: none;
+  }
+
+  .scrolled {
     display: none;
   }
 
