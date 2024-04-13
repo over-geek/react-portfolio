@@ -18,10 +18,39 @@
   justify-content: center;
 }
 
+.d_none {
+  display: none;
+}
+
 .main {
   min-height: 100vh;
 
   /* padding-top: 20px; */
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.sidebarnav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(24, 24, 27);
+  width: 70%;
+  height: 100%;
+  z-index: 20;
+  padding: 10% 2%;
+}
+
+.sidebarnav ul {
+  margin-top: 100%;
+}
+
+.sidebar_btn {
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
 }
 
 .sidebar {
@@ -190,14 +219,22 @@
   margin-bottom: 10%;
 }
 
-.overlay {
+.overlay,
+.sidebar_overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sidebar_overlay {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .project_card {
@@ -294,12 +331,44 @@
   margin-bottom: 15rem;
 }
 
+.form_container {
+  width: 40%;
+}
+
+#form {
+  gap: 1rem;
+}
+
+.input_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+#form input,
+#form textarea {
+  background-color: transparent;
+  outline: none;
+  padding: 8px;
+  border: 1px solid rgb(133, 133, 133);
+  color: #fff;
+}
+
+#message_container {
+  width: 100%;
+}
+
+.form_btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
 /* Footer */
 .footer {
   text-align: center;
   color: rgba(161, 161, 170, 0.5);
   font-family: 'Inconsolata', sans-serif;
-  margin-bottom: 2rem;
 }
 
 /* Dark Mode */
@@ -309,7 +378,7 @@
 }
 
 .main.light-mode p,
-.main.light-mode li {
+.main.light-mode .skill_list li {
   color: rgb(82, 82, 91);
 }
 
@@ -334,4 +403,24 @@
 
 .main.light-mode .light_green {
   color: #000080;
+}
+
+.main.light-mode .project_about p {
+  color: #fff;
+}
+
+.main.light-mode .project_stack ul li {
+  color: rgb(161, 161, 170) !important;
+}
+
+.main.light-mode .footer {
+  color: rgb(82, 82, 91);
+}
+
+.main.light-mode .sidebar_btn {
+  color: black
+}
+
+.main.light-mode .sidebarnav {
+  background-color: rgb(240, 240, 240);
 }
