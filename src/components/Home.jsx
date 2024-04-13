@@ -7,6 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
 import { FaSteam } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Home = () => {
 	return (
@@ -54,6 +55,12 @@ const Home = () => {
 								<a href="https://steamcommunity.com/profiles/76561199139387833" target='_blank' className='d_flex d_flex_ai'>
 									<FaSteam />
 									Steam
+								</a>
+							</li>
+							<li>
+								<a href="mailto:kagyare100@gmail.com" target='_blank' className='d_flex d_flex_ai'>
+									<SiGmail />
+									Gmail
 								</a>
 							</li>
 						</ul>

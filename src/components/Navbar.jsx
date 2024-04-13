@@ -4,9 +4,11 @@ import { FaInfoCircle } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { HiLightBulb } from "react-icons/hi";
+import SideBar from './SideBar';
 
 const Navbar = ({ toggleLightMode }) => {
 	const [scrolled, setScrolled] = useState(false);
+	const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 	const handleScroll = () => {
 		const offset = window.scrollY;
@@ -32,26 +34,31 @@ const Navbar = ({ toggleLightMode }) => {
 				<button className='toggle-bgcolor-btn d_flex d_flex_ai d_flex_jc' onClick={toggleLightMode}>
 					<HiLightBulb className='bulb' />
 				</button>
-				<ul className='d_flex'>
-					<li>
-						<a href="#about" className='d_flex d_flex_ai'>
-							About
-							<FaInfoCircle className='light_green' />
-						</a>
-					</li>
-					<li>
-						<a href="#projects" className='d_flex d_flex_ai'>
-							Projects
-							<FaFileCode className='light_green' />
-						</a>
-					</li>
-					<li>
-						<a href="#contact" className='d_flex d_flex_ai'>
-							Contact
-							<IoMdMail className='light_green' />
-						</a>
-					</li>
-				</ul>
+				{!isMobile && (
+					<ul className='d_flex'>
+						<li>
+							<a href="#about" className='d_flex d_flex_ai'>
+								About
+								<FaInfoCircle className='light_green' />
+							</a>
+						</li>
+						<li>
+							<a href="#projects" className='d_flex d_flex_ai'>
+								Projects
+								<FaFileCode className='light_green' />
+							</a>
+						</li>
+						<li>
+							<a href="#contact" className='d_flex d_flex_ai'>
+								Contact
+								<IoMdMail className='light_green' />
+							</a>
+						</li>
+					</ul>
+				)}
+				{isMobile && (
+					<SideBar />
+				)}
 			</nav>
 		</div>
 	)
