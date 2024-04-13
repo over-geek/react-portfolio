@@ -33,7 +33,7 @@ const Project = () => {
 					githubLink="https://github.com/over-geek/dota-stats"
 					externalLink="https://papaya-fox-72c1a4.netlify.app/"
 					title="Dota Stats"
-					description="This is a website that displays characters from the popular game, DOTA, based on an external API"
+					description="This is a website that displays characters from the popular game, DOTA, based on an external API."
 					stack={["HTML", "CSS", "Bootstrap", "JavaScript"]}
 					image={dota}
 				/>
