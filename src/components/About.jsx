@@ -1,20 +1,12 @@
 import { FaReact } from "react-icons/fa";
-import { SiWebpack } from "react-icons/si";
+import { SiWebpack, SiSpringboot, SiRubyonrails, SiVite } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
-import { SiRubyonrails } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaGitAlt } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaYarn } from "react-icons/fa";
-import { SiVite } from "react-icons/si";
-import { FaNpm } from "react-icons/fa";
+import { FaGitAlt, FaJava, FaDocker, FaBootstrap, FaGithub, FaYarn, FaNpm } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { GiCapybara } from "react-icons/gi";
-import { SiRubygems } from "react-icons/si";
-import { SiMui } from "react-icons/si";
 
 const About = () => {
 	return (
@@ -26,24 +18,25 @@ const About = () => {
 				<div className='about_description_container'>
 					<div className='about_description d_flex_col'>
 						<p>
-							I am a self-driven, career-oriented software developer specializing in Full-Stack development and open-source contributions.
-							Currently, I am pursuing a bachelor&apos;s degree in computer science.
+							I&apos;m a passionate full-stack engineer with a knack for crafting robust, scalable solutions using Java, Python, JavaScript, and Ruby.
+							My expertise spans frameworks like <span className="light_green">Spring Boot</span>, <span className="light_green">React + TypeScript</span>, <span className="light_green">Flask</span>, and <span className="light_green">Ruby on Rails</span>, allowing me to build seamless, end-to-end applications that delight users and solve real-world problems.
+							Currently, I thrive as a Java Spring Boot developer, leveraging my deep understanding of backend systems to deliver high-performance, secure applications.
 						</p>
 						<p>
-							Importantly, through the <a href="https://www.microverse.org/" target="_blank" className="light_green">Microverse Remote Full-Stack development program</a>, I&apos;ve embarked on an incredible journey, honing my skills as a developer while collaborating with talented individuals from around the globe. 
-							This experience has not only sharpened my technical abilities but also enhanced my collaboration skills, as I&apos;ve worked closely with diverse teams to deliver high-quality software solutions. 
+							With a foundation in <span className="light_green">information security</span>, I bring a security-first mindset to every project, ensuring data integrity and system resilience. 
+							My curiosity drives me to explore cutting-edge fields like <span className="light_green">AI</span> and <span className="light_green">machine learning</span>, where I see immense potential to shape the future of technology. As a vocal advocate for digitalization, I believe in harnessing tech to streamline processes and empower businesses.
 						</p>
 						<p>
-							I pride myself on my <span className="light_green">adaptability</span>, <span className="light_green">problem-solving prowess</span>, and a <span className="light_green">relentless drive</span> to learn and grow in the ever-evolving field of technology. 
-							With a strong foundation in both technical and soft skills, I am eager to take on new challenges and contribute meaningfully to innovative projects.
-						</p>
-						<p>
-							Beyond learning, I particularly enjoy playing around with 3D rendering and models, adding a creative dimension to my work.
+							What sets me apart is my adaptability, relentless problem-solving, and a commitment to continuous growth. In the fast-paced world of tech, I&apos;m always learning, experimenting, and pushing boundaries to deliver innovative solutions that make an impact. Let&apos;s build something extraordinary together!
 						</p>
 						<p>Here are a few technologies I&apos;ve been working with recently:</p>
 					</div>
 					<div className='skill_list_container'>
 						<ul className='skill_list'>
+							<li className='d_flex d_flex_ai'>
+								Java
+								<FaJava />
+							</li>
 							<li className='d_flex d_flex_ai'>
 								JavaScript (ES6+)
 								<IoLogoJavascript />
@@ -73,8 +66,8 @@ const About = () => {
                 <FaReact />
               </li>
               <li className='d_flex d_flex_ai'>
-                RSpec
-                <SiRubygems />
+                Spring Boot
+                <SiSpringboot />
               </li>
               <li className='d_flex d_flex_ai'>
                 Capybara
@@ -85,8 +78,8 @@ const About = () => {
                 <FaBootstrap />
               </li>
               <li className='d_flex d_flex_ai'>
-                Material UI
-                <SiMui />
+                Docker
+                <FaDocker />
               </li>
 							<li className='d_flex d_flex_ai'>
                 GitHub

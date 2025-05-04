@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react';
 import { FaInfoCircle } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { HiLightBulb } from "react-icons/hi";
 import SideBar from './SideBar';
+import { ThemeToggle } from './theme-toggle';
 
-const Navbar = ({ toggleLightMode }) => {
+const Navbar = () => {
 	const [scrolled, setScrolled] = useState(false);
 	const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
@@ -31,9 +31,10 @@ const Navbar = ({ toggleLightMode }) => {
 	return (
 		<div className={navbarClasses.join(" ")}>
 			<nav className='sidebar_navlinks d_flex d_flex_ai'>
-				<button className='toggle-bgcolor-btn d_flex d_flex_ai d_flex_jc' onClick={toggleLightMode}>
+				{/* <button className='toggle-bgcolor-btn d_flex d_flex_ai d_flex_jc' onClick={toggleLightMode}>
 					<HiLightBulb className='bulb' />
-				</button>
+				</button> */}
+				<ThemeToggle />
 				{!isMobile && (
 					<ul className='d_flex'>
 						<li>
