@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { FaInfoCircle } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa";
