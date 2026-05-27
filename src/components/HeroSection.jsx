@@ -46,7 +46,7 @@ const HeroSection = () => {
         </div>
 
         <motion.div
-          className="flex min-w-0 max-w-[calc(100vw-3rem)] flex-col items-center text-center sm:max-w-3xl lg:max-w-none xl:items-start xl:pl-16 xl:text-left"
+          className="mx-auto flex w-full min-w-0 max-w-[calc(100vw-3rem)] flex-col items-center text-center sm:max-w-3xl lg:max-w-none xl:mx-0 xl:items-start xl:pl-16 xl:text-left"
           initial={{ opacity: 0, y: 28 }}
           transition={{ duration: 0.7, ease: 'easeOut' }}
           viewport={{ once: true, amount: 0.5 }}
@@ -55,11 +55,11 @@ const HeroSection = () => {
           <p className="mb-5 font-mono text-sm uppercase text-cyan">
             <EncryptedText text="Kenneth Kwame Agyare Kissi" />
           </p>
-          <div className="relative min-h-[12rem] w-full sm:min-h-[16rem] lg:min-h-[18rem] xl:min-h-[20rem]">
+          <div className="relative mx-auto min-h-[12rem] w-full max-w-[22rem] sm:min-h-[16rem] sm:max-w-[44rem] lg:min-h-[18rem] lg:max-w-[64rem] xl:mx-0 xl:min-h-[20rem] xl:max-w-[70rem]">
             <AnimatePresence initial={false}>
               <motion.h2
                 animate={{ opacity: 1, y: 0, zIndex: 2 }}
-                className="absolute inset-x-0 top-0 mx-auto w-full max-w-[22rem] text-4xl font-semibold uppercase leading-tight text-ivory sm:max-w-[44rem] sm:text-6xl sm:leading-none lg:max-w-[64rem] xl:mx-0 xl:max-w-[70rem] xl:text-8xl"
+                className="absolute left-0 top-0 w-full text-center text-4xl font-semibold uppercase leading-tight text-ivory sm:text-6xl sm:leading-none xl:text-left xl:text-8xl"
                 exit={{ opacity: 0, y: -18, zIndex: 1 }}
                 initial={{ opacity: 0, y: 24, zIndex: 2 }}
                 key={currentPhrase}
